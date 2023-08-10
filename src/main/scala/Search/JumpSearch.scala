@@ -13,7 +13,6 @@ object JumpSearch {
     *   - index of the @elem otherwise -1
     */
   def jumpSearch(arr: List[Int], elem: Int): Int = {
-
     val len    = arr.size
     var a: Int = 0
     var b: Int = floor(sqrt(len.toDouble)).toInt
